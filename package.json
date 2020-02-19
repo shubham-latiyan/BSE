@@ -259,6 +259,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
     "@hot-loader/react-dom": "^16.11.0",
+    "cheerio": "^1.0.0-rc.3",
     "connected-react-router": "^6.6.1",
     "core-js": "^3.5.0",
     "devtron": "^1.4.0",
@@ -274,6 +275,7 @@
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
+    "request-promise": "^4.2.5",
     "source-map-support": "^0.5.16"
   },
   "devEngines": {
@@ -286,8 +288,6 @@
   },
   "browserslist": "electron 1.6",
   "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  
   }
 }

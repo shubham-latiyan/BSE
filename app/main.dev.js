@@ -63,7 +63,7 @@ const createWindow = async () => {
     toolbar: false,
     webPreferences: {
       nodeIntegration: true,
-      devTools: false,
+      // devTools: false,
     }
   });
 
