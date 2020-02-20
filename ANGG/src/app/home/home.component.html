@@ -1,18 +1,9 @@
-<div
-  style="background: black;height: 38px;margin: 6px;padding: 5px;font-family: sans-serif"
->
+<div style="background: black;height: 38px;margin: 6px;padding: 5px;font-family: sans-serif">
   <span style="color: white;">BSE Sensex</span>
-  <br />
+  <br>
   <span style="color: white;font-size: 14px;">{{ currVal }}</span> &nbsp;
-  <span style="color: rgb(100, 248, 32);">{{ incR }}</span>
-  <span
-    [ngStyle]="{ color: incR[0] == '+' ? 'rgb(100, 248, 32)' : 'red' }"
-    style="margin-left: 6px;font-size: 14px;"
-    >(+{{ incrP }})</span
-  >
-  <span
-    *ngIf="incR[0] == '-'"
-    style="color: red;margin-left: 6px;font-size: 14px;"
-    >(-{{ incrP }})</span
-  >
+  <span [ngStyle]="{'color': incR[0] == '+' ? 'rgb(100, 248, 32)' : 'rgb(255, 0, 0)' }">{{ incR }}</span>
+  <span *ngIf="incR[0] == '+'" style="color: rgb(100, 248, 32);margin-left: 6px;font-size: 14px;">
+    (+{{ incrP }})</span>
+  <span *ngIf="incR[0] == '−'" style="color: red;margin-left: 6px;font-size: 14px;">(-{{ incrP }})</span>
 </div>

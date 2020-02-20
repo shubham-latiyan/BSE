@@ -20,12 +20,19 @@
     "!tslint.json"
   ],
   "win": {
-    "target": ["nsis"]
+    "target": [
+      "nsis"
+    ]
   },
   "mac": {
-    "target": ["dmg"]
+    "target": [
+      "dmg"
+    ]
   },
   "linux": {
-    "target": ["AppImage", "deb"]
+    "target": [
+      "AppImage",
+      "deb"
+    ]
   }
 }

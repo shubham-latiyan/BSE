@@ -1,20 +1,14 @@
 {
   "name": "BSE-Sensex",
-  "version": "7.0.0",
-  "description": "Angular 9 with Electron (Typescript + SASS + Hot Reload)",
+  "version": "2.0.0",
+  "description": "BSE Sensex index monitoring (by Shubham Latiyan)",
   "homepage": "https://github.com/maximegris/angular-electron",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Shubham Latiyan",
+    "email": "shubhamlatiyan46@gmail.com"
   },
   "keywords": [
-    "angular",
-    "angular 8",
-    "electron",
-    "typescript",
-    "eslint",
-    "spectron",
-    "sass"
+    "sensex"
   ],
   "main": "main.js",
   "private": true,

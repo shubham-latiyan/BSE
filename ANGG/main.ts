@@ -18,10 +18,10 @@ function createWindow(): BrowserWindow {
     width: 240,
     height: 60,
     maximizable: false,
-    resizable: false,
+    resizable: (serve) ? true : false,
     webPreferences: {
       nodeIntegration: true,
-      devTools: false,
+      devTools: (serve) ? true : false,
       allowRunningInsecureContent: (serve) ? true : false,
     },
   });
